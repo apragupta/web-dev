@@ -1,0 +1,285 @@
+.wd-page-background-color {
+    background-color: black;
+}
+
+
+
+.wd-fg-color-white {
+    color: white;
+}
+.wd-font {
+    font-family: Helvetica Neue, sans-serif, Arial;
+}
+.wd-page-height {
+    height: 100%;
+}
+.wd-fg-color-white { color: white; }
+
+
+
+.wd-flex-container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+}
+
+.wd-page-border {
+    border-style: solid ;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    color: rgb(47,51,54);
+    margin-left:60px;
+    margin-right:10px;
+}
+.wd-align-center {
+    align-items: center;
+}
+
+.wd-flex-box-search {
+    /*border: 1px gray solid;*/
+    margin-left: 12px;
+    flex: 10 1 0;
+
+
+}
+
+.wd-flex-box-settings {
+    /*border: 1px gray solid;*/
+    margin-right: 12px;
+    flex: 1 1 0;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+
+}
+
+
+.wd-search-bar {
+    background-color: #141416;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+    border: 0px;
+    width: 100%;
+    text-indent: 20px;
+
+}
+
+.wd-settings-size {
+    height:17px;
+    width: 17px;
+}
+
+.wd-icons-size {
+    height:15px;
+    width: 15px;
+}
+
+
+
+.wd-hyperlinks-box{
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+
+
+
+}
+
+.wd-padding-16{
+    padding: 16px;
+}
+
+.wd-selected-hyperlink {
+
+    border-style: solid;
+    border-width: 0px 0px  5px 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 12px;
+
+
+}
+
+.wd-selected-color {
+    color: rgb(29,161,242);
+}
+.wd-suggested-posts {
+
+    border: 0px;
+    width: 100%;
+
+}
+.wd-suggested-posts-topic-num-tweets {
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+    padding: 2px;
+
+}
+
+.wd-suggested-posts-title {
+    font-size: 15px;
+    color: white;
+    padding: 2px;
+
+}
+
+.wd-nav-bar-border {
+    border-style: solid;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 5px;
+
+}
+
+.wd-nav-gully {
+    background-color: #141416;
+    height: 16px;
+    width: 100%;
+    border-left-width: 1px;
+}
+
+.wd-flex-box-suggested {
+    flex: 8 1 0;
+
+}
+
+.wd-flex-box-img {
+
+    flex: 1 1 0;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+
+
+.wd-bottom-border-1px {
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-color: rgb(47,51,54);
+}
+
+.wd-round-borders{
+    border-radius: 15px;
+}
+
+.wd-100x100img {
+    width: 100px;
+    height: 100px;
+}
+
+.wd-bookmarks-title {
+    font-size: 20px;
+
+    font-weight: bold;
+
+}
+
+.wd-12-16-padding {
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+}
+
+.wd-12-padding-top {
+    padding-top: 12px;
+
+}
+
+.wd-12-padding-right {
+    padding-right: 12px;
+
+}
+
+.wd-12-padding {
+    padding: 12px;
+
+}
+
+.wd-16-padding-right {
+    padding-right: 16px;
+
+}
+
+.wd-handle-text{
+    font-size: 13px;
+    color: lightgrey;
+}
+
+.wd-flex-box-profile-img{
+    flex: 0 1 0;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+
+.wd-48x48-circular-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.wd-flex-box-bookmarked {
+    flex: 15 1 0;
+
+
+}
+
+.wd-fg-color-lightgray {
+    color: lightgrey;
+}
+
+.wd-font-size-15px{
+    font-size: 15px;
+}
+
+.wd-bookmarks-content {
+    max-width: 506px;
+}
+.wd-bookmark-image-text-size{
+    width: 506px;
+    max-height: 264px;
+}
+.wd-bookmarks-image{
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-width: 1px;
+
+
+
+
+}
+.wd-12-margin-top{
+    margin-top: 12px
+}
+
+.wd-bold{
+    font-weight: bold;
+}
+
+
+.wd-0-top-padding{
+    padding-top: 0px;
+}
+
+.wd-0-left-padding{
+    padding-left: 0px;
+}
+
+.wd-round-bottom-border {
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.wd-icon-num-container {
+    display: flex;
+    justify-content: center;
+}
+
+.wd-fg-color-red{
+    color: #F9595F;
+}
