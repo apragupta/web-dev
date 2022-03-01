@@ -1,5 +1,5 @@
 const PostSummaryItem = (post) => {
-    return(`<div class="row border border-1  border-secondary bg-light p-2 m-0">
+    return(`<div class="list-group-item d-flex justify-content-between  p-2 m-0">
             <div class="col-xxl-10 col-9 ">
                 <p class="wd-topic-time-num-tweets">
                     ${post.topic}

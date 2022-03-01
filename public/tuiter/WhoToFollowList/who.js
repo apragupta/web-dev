@@ -7,7 +7,7 @@ let who= [
     {   avatarIcon: '../img/virgin_gallactic.png',
         userName: 'Virgin Galactic',
         handle: 'virgingalactic', },
-    {   avatarIcon: '../img/nasa.jpg',
+    {   avatarIcon: '../img/nasa.png',
         userName: 'NASA', handle: 'NASA', },
     {   avatarIcon: '../img/tesla.png',
         userName: 'Tesla', handle: 'Tesla', }, ];

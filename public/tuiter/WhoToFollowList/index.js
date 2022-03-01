@@ -2,8 +2,8 @@ import WhoToFollowListItem from "./WhoToFollowListItem.js";
 import who from "./who.js"
 const WhoToFollowList = () => {
     return (`
-            
-            <div class=" border border-secondary bg-light rounded-top p-1 m-0  ">
+            <ul class="list-group">
+            <div class=" list-group-item rounded-top p-2 m-0  ">
                 <strong>Who to follow</strong>
             </div>
             
@@ -11,7 +11,7 @@ const WhoToFollowList = () => {
                 who.map(who => {
                     return(WhoToFollowListItem(who));
                 }).join('')}
-             
+             </ul>
 
             
             
