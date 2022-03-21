@@ -3,10 +3,10 @@ const NavigationSidebar = () => {
         <div class="list-group  p-0">
 
 
-                <a href="../tuit.html" class=" list-group-item list-group-item-action " aria-current="true">
+                <a href="../tuit.html" class=" list-group-item  ">
                     <i class="fab fa-twitter"></i>
                 </a>
-                <a href="../home.html" class="list-group-item list-group-item-action  ">
+                <a href="../home.html" class="list-group-item   ">
                     <i class="fa fa-home"></i> <span class="d-xl-inline d-none"> Home </span>
 
 
