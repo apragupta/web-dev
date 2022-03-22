@@ -1,6 +1,6 @@
 import React from "react";
 import PostSummaryList from "./../PostSummaryList";
-
+import './explore.css';
 
 
 const ExploreComponent = () => {
