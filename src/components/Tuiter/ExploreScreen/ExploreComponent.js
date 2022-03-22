@@ -51,7 +51,7 @@ const ExploreComponent = () => {
 
 
             <div className="pt-1">
-                <img className="w-100 h-auto" src="./img/spacex_starship.jpg"/>
+                <img className="w-100 h-auto" src="https://imgur.com/tBXhe83.png"/>
                 <h2 className="wd-text-over-img ">
                     SpaceX's Starship
                 </h2>
