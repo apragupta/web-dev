@@ -1,0 +1,24 @@
+[
+  {
+    "avatarIcon": "https://imgur.com/VL1sDDV.png",
+    "userName": "Java", "handle": "Java"
+  },
+
+  { "avatarIcon": "https://imgur.com/YYlfB0D.png",
+    "userName": "Relativity Space",
+    "handle": "relativityspace" },
+
+
+  { "avatarIcon": "https://imgur.com/jNWhXNc.png",
+
+    "userName": "Virgin Galactic",
+    "handle": "virgingalactic" },
+
+  { "avatarIcon": "https://imgur.com/NEYeG62.png",
+    "userName": "NASA",
+    "handle": "NASA" },
+
+  { "avatarIcon": "https://imgur.com/0vlZtRT.png",
+    "userName": "Tesla",
+    "handle": "Tesla" } ]
+
