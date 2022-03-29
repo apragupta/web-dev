@@ -22,7 +22,7 @@ const TuitListItem = ({tuit}) => {
                     <span className="fw-bold m-0"> {tuit.postedBy.username}
                     <span> </span>
                     </span>
-                    <span className="wd-fg-color-lightgray m-0">@{tuit.handle}</span>
+                    <span className="m-0" style={{color: "rgb(82, 88, 92)"}}>@{tuit.handle}</span>
                     </p>
                 </div>
 
