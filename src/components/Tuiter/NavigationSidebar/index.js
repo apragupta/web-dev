@@ -11,11 +11,11 @@ const NavigationSidebar = (
              <i className="fab fa-twitter"></i>
          </a>
 
-         <a href="/" className={`list-group-item list-group-item-action ${active === 'home' ? 'active' : ''}`}>
+         <a href="./" className={`list-group-item list-group-item-action ${active === 'home' ? 'active' : ''}`}>
              <i className="fa fa-home"></i> <span className="d-xl-inline d-none"> Home </span>
          </a>
 
-        <a href="tuiter/explore" className={`list-group-item list-group-item-action ${active === 'explore' ? 'active' : ''}`}>
+        <a href="./explore" className={`list-group-item list-group-item-action ${active === 'explore' ? 'active' : ''}`}>
         <i className="fa fa-hashtag"></i> <span className="d-xl-inline d-none">Explore</span>
         </a>
 
