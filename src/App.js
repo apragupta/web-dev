@@ -25,6 +25,10 @@ function App() {
 
                             <Route index
                                    element={<HomeScreen/>}/>
+
+                            <Route path = "home"
+                                   exact={true}
+                                   element={<HomeScreen/>}/>
                             <Route path="explore"
                                    element={<ExploreComponent/>}/>
                             <Route path="notifications"

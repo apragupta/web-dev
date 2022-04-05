@@ -1,35 +1,37 @@
 import React, {useState} from "react";
 import {useDispatch} from "react-redux";
+import {createTuit} from "../../../actions/tuits-actions";
+
+
+
 const WhatsHappening = () => {
-    let [whatsHappening, setWhatsHappening]
-        = useState('');
+    let [newTuit, setNewTuit]
+        = useState({
+        tuit: ''
+    });
 
     const dispatch = useDispatch();
 
-    const tuitClickHandler = () => {
-        dispatch({type: 'create-tuit',
-            tuit: whatsHappening
-        });
-
-    }
     return (
 
-        <div className="list-group-item d-flex   m-0 py-2 "style={{backgroundColor: "black"}}>
-            <div className="col-xxl-1 col-sm-1 pt-2 " >
+        <div className="list-group-item d-flex  py-2 border-0 align-content-end"style={{backgroundColor: "black"}}>
+            <div className="col-2 h-auto pt-2 pe-2 " >
 
-                <img src="https://imgur.com/VP0MS6H.png" className = "img-fluid w-100 h-auto rounded-circle my-auto px-2 py-1" />
+                <img src="https://i.imgur.com/dUUJ6Gm.jpeg" className = "img-fluid w-100 h-auto rounded-circle my-auto px-2 py-1" />
             </div>
 
-            <div className="col-xxl-11 col-sm-1 mr-auto p-0 ">
+            <div className="col-10 h-auto   ">
                       <textarea
                           // Styling for what's happening insipired by Professor's repo
-                          value={whatsHappening}
+                          value={newTuit.tuit}
                           onChange={(event) =>
-                              setWhatsHappening(event.target.value)}
-                          className="form-control"
-                          style={{width: "100%", color: "white",
+                              setNewTuit({
+                                  ...newTuit, tuit: event.target.value
+                              })}
+                          className="form-control "
+                          style={{color: "white",
                               padding: "0px",
-                              paddingTop: "15px",
+                              paddingTop: "20px",
                               backgroundColor: "black",
                               borderBottom: "solid",
                               borderBottomWidth: "1px",
@@ -37,9 +39,19 @@ const WhatsHappening = () => {
                               }}
                           placeholder="What's happening?">
                       </textarea>
-                    <button onClick={tuitClickHandler} className="btn btn-primary align-self-center fa-pull-right rounded-pill my-2">
-                        Tuit
-                    </button>
+                    <div className="d-flex justify-content-between  w-100">
+                        <div className="d-inline-flex mt-2 align-self-auto p-0">
+                            <a href="#"><i className="far fa-image me-3"></i></a>
+                            <a href="#"><i className="fas fa-chart-line me-3"></i></a>
+                            <a href="#"><i className="far fa-smile me-3"></i></a>
+                            <a href="#"><i className="far fa-calendar me-3"></i></a>
+                        </div>
+                        <button onClick={() => createTuit(dispatch,newTuit)} className="btn btn-primary rounded-pill mt-2">
+                            Tuit
+                        </button>
+                    </div>
+
+
                 </div>
             </div>
 

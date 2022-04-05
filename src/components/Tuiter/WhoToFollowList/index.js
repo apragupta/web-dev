@@ -6,13 +6,13 @@ const WhoToFollowList = () => {
     return (
 
             <ul className="list-group">
-            <div className=" list-group-item rounded-top p-2 m-0  ">
+            <li className=" list-group-item rounded-top p-2 m-0  " key = {0}>
                 <strong>Who to follow</strong>
-            </div>
+            </li>
             
              {
-        who.map(who => {
-            return(<WhoToFollowListItem who = {who}/>);})}
+        who.map((who,index) => {
+            return(<WhoToFollowListItem who = {who} key = {index}/>);})}
             </ul>
 
 )}

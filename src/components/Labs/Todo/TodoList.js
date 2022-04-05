@@ -5,9 +5,9 @@ const TodoList = () => {
     return(
         <ul>
             {
-                todos.map(todo => {
+                todos.map((todo,index) => {
                     return(
-                        <TodoItem todo = {todo}/>
+                        <TodoItem todo = {todo} key = {index}/>
                     );
                 })
             }

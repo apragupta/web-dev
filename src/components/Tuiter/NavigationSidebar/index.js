@@ -4,18 +4,19 @@ const NavigationSidebar = (
     {
         active = 'explore'
     }) => {
+    console.log(window.location.pathname)
     return(
         <div>
     <div className="list-group  p-0">
-         <a href="../tuit.html" className={`list-group-item list-group-item-action ${active === 'tuit' ? 'active' : ''}`}>
+         <a href="./tuit.html" className={`list-group-item list-group-item-action ${active === 'tuit' ? 'active' : ''}`}>
              <i className="fab fa-twitter"></i>
          </a>
 
-         <a href="./" className={`list-group-item list-group-item-action ${active === 'home' ? 'active' : ''}`}>
+         <a href="../tuiter/home" className={`list-group-item list-group-item-action ${active === 'home' ? 'active' : ''}`}>
              <i className="fa fa-home"></i> <span className="d-xl-inline d-none"> Home </span>
          </a>
 
-        <a href="./explore" className={`list-group-item list-group-item-action ${active === 'explore' ? 'active' : ''}`}>
+        <a href="../tuiter/explore" className={`list-group-item list-group-item-action ${active === 'explore' ? 'active' : ''}`}>
         <i className="fa fa-hashtag"></i> <span className="d-xl-inline d-none">Explore</span>
         </a>
 
@@ -41,7 +42,7 @@ const NavigationSidebar = (
         </a>
 
         <a href="../more.html" className={`list-group-item list-group-item-action ${active === 'more' ? 'active' : ''}`}>
-                                <span className="fa-stack fa-1x" style={{"font-size": "0.5em"}}>
+                                <span className="fa-stack fa-1x" style={{"fontSize": "0.5em"}}>
                                   <i className="fas fa-circle fa-stack-2x"></i>
                                   <i className="fas fa-ellipsis-h fa-stack-1x fa-inverse"></i>
                                 </span>

@@ -15,11 +15,13 @@ const reducer = combineReducers({
 const store = createStore(reducer);
 
 const Tuiter = () => {
+    const current_url = window.location.pathname;
+    const active_screen = current_url.substring(current_url.lastIndexOf('/') + 1);
     return (
         <Provider store={store}>
         <div className="row mt-2">
             <div className="col-2 col-lg-1 col-xl-2">
-                <NavigationSidebar/>
+                <NavigationSidebar active={active_screen}/>
             </div>
             <div className="col-10 col-lg-7 col-xl-6">
                 <Outlet/>
