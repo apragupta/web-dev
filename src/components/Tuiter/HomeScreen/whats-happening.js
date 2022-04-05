@@ -46,7 +46,8 @@ const WhatsHappening = () => {
                             <a href="#"><i className="far fa-smile me-3"></i></a>
                             <a href="#"><i className="far fa-calendar me-3"></i></a>
                         </div>
-                        <button onClick={() => createTuit(dispatch,newTuit)} className="btn btn-primary rounded-pill mt-2">
+                        <button onClick={() => {createTuit(dispatch,newTuit);
+                                                setNewTuit({...newTuit, tuit: ""})}} className="btn btn-primary rounded-pill mt-2">
                             Tuit
                         </button>
                     </div>

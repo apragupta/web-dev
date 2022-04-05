@@ -4,7 +4,7 @@ const NavigationSidebar = (
     {
         active = 'explore'
     }) => {
-    console.log(window.location.pathname)
+    
     return(
         <div>
     <div className="list-group  p-0">

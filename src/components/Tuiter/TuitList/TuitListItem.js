@@ -46,7 +46,7 @@ const TuitListItem = ({tuit}) => {
 
 
             </div>
-                {/*Todo - likes,comments etc maybe image/embedding-*/}
+                {/*Todo - image/embedding-*/}
 
 
 

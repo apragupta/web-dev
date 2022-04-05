@@ -22,7 +22,7 @@ const TuitStats = ({tuit}) => {
             <span onClick={() => updateTuit(dispatch, {
                     ...tuit, stats: {...tuit.stats, likes: calcLikes(tuit)}, liked: !tuit.liked}
              )}>
-                {
+                  {
                     tuit.liked &&
                     <i className="fas fa-heart me-1"
                        style={{color: 'red'}}></i>
