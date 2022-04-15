@@ -1,4 +1,6 @@
 import axios from "axios";
+console.log("API BASE")
+
 const API_BASE = process.env.REACT_APP_API_BASE;
 console.log(API_BASE)
 const TUITS_API = `${API_BASE}/tuits`;

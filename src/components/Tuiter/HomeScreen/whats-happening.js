@@ -15,7 +15,7 @@ const WhatsHappening = () => {
     return (
 
         <div className="list-group-item d-flex  py-2 border-0 align-content-end"style={{backgroundColor: "black"}}>
-            <div className="col-2 h-auto pt-2 pe-2 " >
+            <div className="col-2 h-auto pt-2 pe-2 rat " >
 
                 <img src="https://i.imgur.com/dUUJ6Gm.jpeg" className = "img-fluid w-100 h-auto rounded-circle my-auto px-2 py-1" />
             </div>

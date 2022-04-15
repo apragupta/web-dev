@@ -12,7 +12,7 @@ const TuitListItem = ({tuit}) => {
         <div className="list-group-item d-flex   m-0 py-2 ">
             <div className="col-2 h-auto pe-2" >
 
-                <img src={tuit["avatar-image"]} className = "img-fluid w-100 h-auto rounded-circle my-auto px-2 py-1" />
+                <img src={tuit["avatar_image"]} className = "img-fluid w-100 h-auto rounded-circle my-auto px-2 py-1" />
             </div>
 
             <div className="col-10 mr-auto p-0 ">
